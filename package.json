@@ -1,0 +1,14 @@
+{
+  "name": "start",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --open --host --port 4000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "npm run build && vite preview --port 5000"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  }
+}
